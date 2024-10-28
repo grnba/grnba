@@ -3,209 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GRNBA Register</title>
+    <title>GRNBA Official Website</title>
     <style>
       body {
         font-family: Arial, sans-serif;
-        margin: 20px;
-      }
-      h1 {
-        color: #2c3e50;
-      }
-      p {
-        font-size: 16px;
-        line-height: 1.6;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-      }
-      table,
-      th,
-      td {
-        border: 1px solid #ddd;
-      }
-      th,
-      td {
-        padding: 12px;
-        text-align: left;
-      }
-      th {
-        background-color: #f4f4f4;
-      }
-      .button {
-        display: inline-block;
-        background-color: #3498db;
-        color: white;
-        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
-        text-decoration: none;
-        border-radius: 5px;
+        margin: 0;
+        padding: 0;
+        background-color: #4d38ec;
+        height: 100vh;
       }
-      .button:hover {
-        background-color: #2980b9;
+      h1,
+      h2,
+      p {
+        color: #333;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        width: 50%;
+        margin: 25vh auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+      }
+      .image-container {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 24px;
+      }
+      .image-container img {
+        width: 24rem;
+        height: auto;
+        border-radius: 8px;
+      }
+      .highlight {
+        font-size: 1.5em; /* Increases font size of "Click below" */
+        font-weight: bold;
+      }
+      .updates {
+        margin-top: 20px;
+        font-style: italic;
+        color: #555;
+      }
+
+      /* Responsive adjustment */
+      @media (max-width: 768px) {
+        .container {
+          width: 90%;
+          margin: 10vh auto;
+        }
+        .image-container {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
   <body>
-    <h1>GRNBA Badminton Tournament 2024</h1>
+    <div class="container">
+      <h1>Welcome to the GRNBA Official Website!!</h1>
 
-    <!-- Replace the link below with your actual Google Form link -->
-    <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSdt2cztduL2Eg9T8B6KASohQ60sJ-JaZbQcTACaD9qvFsFUpA/viewform?usp=sf_link"
-      class="button"
-      >Register Here</a
-    >
+      <div class="image-container">
+        <!-- First Image -->
+        <img src="./assets/logo.jpg" alt="GRNBA Official Photo" />
+        <!-- Second Image -->
+        <img src="./assets/logo1.jpeg" alt="GRNBA Event Photo" />
+      </div>
 
-    <p>
-      <strong>Tournament Information</strong><br />
-      GRNBA is pleased to announce their joint Badminton Tournament for 2024. We
-      will feature 9 categories across the badminton disciplines (MS, MD-A,
-      MD-B, VD-35, VD-45, SVD-55, MD, LD, B) over 1 days, 14 December 2024. Cash
-      prizes and medals await the winners of each category.
-    </p>
-
-    <p>
-      We are implementing cheaper registration for those sending in their entry
-      on or before 07th december, at £20 per person. This will go up to £20 per
-      person after that date. So, sign up now to one of Aldershot's largest
-      nepalese badminton tournament!
-    </p>
-
-    <h2>Registration</h2>
-    <p>
-      Entries to be made on the official TOURNAMENT FORM or via Viber Group
-      (GRNBA 6th Open Tournament). Please folow our Viber Group (GRNBA 6th Open
-      Tournament) for registration.
-    </p>
-
-    <p>
-      <strong>Registration Deadline:</strong> December 07th , 2024. Any
-      registration after this date will be turned down.
-    </p>
-
-    <h2>Dates</h2>
-    <table>
-      <tr>
-        <th>Category</th>
-
-        <th>Start Time</th>
-      </tr>
-      <tr>
-        <td>MEN'S SINGLE</td>
-
-        <td>09.00 AM</td>
-      </tr>
-
-      <tr>
-        <td>MEN'S DOUBLE A</td>
-
-        <td>12.00 PM</td>
-      </tr>
-
-      <tr>
-        <td>MEN'S DOUBLE B</td>
-
-        <td>09.00 AM</td>
-      </tr>
-
-      <tr>
-        <td>VETERANS DOUBLE 35+</td>
-
-        <td>03.00 PM</td>
-      </tr>
-      <tr>
-        <td>VETERANS DOUBLE 45+</td>
-
-        <td>12.00 PM</td>
-      </tr>
-
-      <tr>
-        <td>SUPER VETERANS DOUBLE 55+</td>
-
-        <td>09.00 AM</td>
-      </tr>
-
-      <tr>
-        <td>MIXED DOUBLE</td>
-
-        <td>04.00 PM</td>
-      </tr>
-
-      <tr>
-        <td>LADIES DOUBLE</td>
-
-        <td>01.00 PM</td>
-      </tr>
-
-      <tr>
-        <td>BEGINNERS</td>
-
-        <td>04.00 PM</td>
-      </tr>
-
-      <!-- Add additional rows as necessary -->
-    </table>
-
-    <h2>Location</h2>
-    <p>
-      <strong>Garrison Sports Centre </strong><br />
-      Rawlinson Rd, Aldershot GU11 2EY <br />
-      Nearest Station: Aldershot (south western line) , within 20-30 min walking
-      distance
-    </p>
-
-    <h2>Categories</h2>
-    <p>
-      Players shall self-declare their categories based on specific criteria.
-      Players may register above their level but may not register below their
-      level. The tournament values bringing higher level players together with
-      lower level players to enhance the experience for all.
-    </p>
-
-    <h2>Registration Fee</h2>
-    <p>
-      <strong>On or before 7th December 2024:</strong> £20 per person<br />
-      <strong>after 7th december 2024:</strong> £25 per person
-    </p>
-
-    <h2>Prizes</h2>
-    <p>WINNER: ALL WINNER WILL BE REWARDED WITH CASH PRICE AND A MEDAL<br /></p>
-
-    <h2>Register Now!</h2>
-    <!-- Replace the link below with your actual Google Form link -->
-    <a
-      href="
-    https://docs.google.com/forms/d/e/1FAIpQLSdt2cztduL2Eg9T8B6KASohQ60sJ-JaZbQcTACaD9qvFsFUpA/viewform?usp=sf_link"
-      class="button"
-      >Register Here</a
-    >
-
-    <h2>Payment</h2>
-    <p>
-      Please transfer the money to the following account after filling in the
-      registration form:<br />
-      <strong
-        >Account Name: GREATER RUSHMOOR NEPALESE BADMINTON ASSOCIATION
-        (GRNBA)</strong
-      >
-      <br />
-      <strong>Bank: LLOYDS</strong> <br />
-      <strong>Sort Code: 309624</strong> <br />
-      <strong>Account Number: 81760868</strong> <br />
-      <strong>Reference:</strong> PLEASE FILL YOUR FIRST NAME ON THE REFERENCE.<br /><br />
       <strong>
-        Note: Once fee paid, Please tick on your name on the Viber Group (GRNBA
-        6th Open Tournament).</strong
+        <p>
+          <span class="highlight">Click below</span> to register for the 6th
+          GRNBA badminton competition!!!
+        </p></strong
       >
-      <br />
-    </p>
 
-    <h2>Contact</h2>
-    <p>
-      For further questions, please mail:
-      <a href="grnba2017@gmail.com">grnba2017@gmail.com</a>
-    </p>
+      <h2>
+        <a href="register.html">GRNBA 6th Badminton Competition</a>
+      </h2>
+
+      <p class="updates">Stay tuned! Updates coming soon on the website.</p>
+    </div>
   </body>
 </html>
